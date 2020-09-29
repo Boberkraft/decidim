@@ -1,0 +1,56 @@
+pl:
+  activemodel:
+    attributes:
+      dummy_resource:
+        created_at: Utworzono
+        decidim_scope_id: Zakres
+        field: Moja dziedzina
+        start_date: Data rozpoczęcia
+        title: Tytuł
+        translatable_text: Tekst do przetłumaczenia
+        updated_at: Zaktualizowano
+  decidim:
+    components:
+      dummy:
+        settings:
+          global:
+            readonly_attribute: Atrybut tylko do odczytu
+            test: Test A
+            test_choices:
+              a: Opcja A
+              b: Opcja B
+              c: Opcja C
+          step:
+            endorsements_blocked: Możliwość rekomendacji zablokowana
+            endorsements_enabled: Rekomendacje włączone
+            readonly_step_attribute: Atrybut kroku tylko do odczytu
+    dummy:
+      admin:
+        exports:
+          dummies: Manekiny
+    gamification:
+      badges:
+        test:
+          conditions:
+            - Użyj środowiska testowego dla decidim.
+          description: Użytkownicy otrzymują tę odznakę tworząc testy.
+          description_another: Ten użytkownik utworzył %{score} testów.
+          description_own: Utworzyłeś %{score} testów.
+          name: Testy
+          next_level_in: Stwórz %{score} dodatkowych testów, aby przejść do następnego poziomu!
+          unearned_another: Ten użytkownik nie utworzył jeszcze żadnych testów.
+          unearned_own: Nie stworzyłeś jeszcze żadnych testów.
+    pages:
+      home:
+        statistics:
+          bar: Bar
+          dummies_count_high: Przykładowa duża liczba
+          dummies_count_medium: Przykładowa średnia liczba
+          foo: Foo
+    participatory_processes:
+      statistics:
+        dummies_count_high: Przykładowa duża liczba
+        dummies_count_medium: Przykładowa średnia liczba
+    resource_links:
+      test_link:
+        dummy_resource_dummy: Przykładowe powiązanie

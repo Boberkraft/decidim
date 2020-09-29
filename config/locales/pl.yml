@@ -1,0 +1,70 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+pl:
+  activemodel:
+    attributes:
+      question:
+        participatory_scope: Zakres tematyczny
+
+  hello: "Witaj"
+
+  decidim:
+    admin:
+      filters:
+        state_eq:
+          label: 'Status'
+    components:
+      comment_order_selector:
+        order:
+          most_discussed: Najpopularniejsze
+    devise:
+      omniauth_registrations:
+        new:
+          username_help: Publiczne imię wyświetlane przy Twoich wpisach. W celu zagwarantowania anonimowości może być dowolna nazwa.
+      registrations:
+        new:
+          username_help: Publiczne imię wyświetlane przy Twoich wpisach. W celu zagwarantowania anonimowości może być dowolna nazwa.
+    pages:
+      home:
+        extended:
+          more_info: Więcej informacji
+    scopes:
+      global: Zakres ogólny
+
+  layouts:
+    decidim:
+      cookie_warning:
+        description_html: Uprzejmie informujemy, że od 25 maja 2018 r. obowiązuje tzw. RODO, czyli Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE. Nowe prawo wprowadza zmiany w zasadach regulujących przetwarzanie danych osobowych. <br>Nasza strona internetowa używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych. Dzięki nim możemy indywidualnie dostosować stronę do twoich potrzeb. Każdy może zaakceptować pliki cookies albo ma możliwość wyłączenia ich w przeglądarce, dzięki czemu nie będą zbierane żadne informacje. <br>Szczegółowe zapisy znajdziesz w %{link}. Jednocześnie informujemy, że Państwa dane są przetwarzane w sposób bezpieczny, z należytą starannością i zgodnie z obowiązującymi przepisami.
+        link_label: nowej polityce prywatności portalu internetowego www.dialog.gdynia.pl
+
+  locale:
+    name: "Polski"

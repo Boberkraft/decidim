@@ -1,0 +1,86 @@
+pl:
+  activemodel:
+    models:
+      decidim/blogs/create_post_event: Nowy wpis na blogu
+  activerecord:
+    models:
+      decidim/blogs/post:
+        one: Wpis
+        few: Wpisy
+        many: Wpisy
+        other: Wpisy
+  decidim:
+    blogs:
+      actions:
+        confirm_destroy: Czy na pewno chcesz usunąć ten wpis?
+        destroy: Usuń
+        edit: Edytuj
+        new: Nowy wpis
+        title: Działania
+      admin:
+        models:
+          components:
+            body: Treść
+          post:
+            name: Wpis
+        posts:
+          create:
+            invalid: Podczas tworzenia tego wpisy wystąpił błąd
+            success: Wpis został utworzony
+          destroy:
+            success: Wpis został usunięty
+          edit:
+            save: Aktualizuj
+          index:
+            title: Wpisy
+          new:
+            create: Utwórz
+            title: Utwórz wpis
+          update:
+            invalid: Podczas zapisywania wpisu wystąpiły błędy.
+            success: Wpis został pomyślnie zapisany
+      last_activity:
+        new_post_at_html: "<span>Nowy wpis na %{link}</span>"
+      models:
+        post:
+          fields:
+            author: Autor
+            body: Treść
+            created_at: Utworzono
+            title: tytuł
+      posts:
+        show:
+          back: Powrót do listy
+          comments: Komentarze
+          view: Zobacz
+        sidebar_blog:
+          comments: komentarze
+          most_commented_posts: Najczęściej komentowane wpisy
+      read_more: Czytaj więcej
+    components:
+      blogs:
+        name: Blog
+        settings:
+          global:
+            announcement: Ogłoszenie
+            comments_enabled: Komentarze włączone
+            comments_max_length: Maksymalna długość komentarzy (Pozostaw 0 dla wartości domyślnej)
+          step:
+            announcement: Ogłoszenie
+            comments_blocked: Komentarze zablokowane
+            endorsements_blocked: Możliwość rekomendowania zablokowana
+            endorsements_enabled: Rekomendowanie włączone
+    events:
+      blogs:
+        post_created:
+          email_intro: Wpis "%{resource_title}" został opublikowany w obserwowanym przez Ciebie "%{participatory_space_title}".
+          email_outro: Otrzymałeś to powiadomienie, ponieważ obserwujesz "%{participatory_space_title}". Możesz zrezygnować z obserwowania klikając w poprzedni link.
+          email_subject: Opublikowano nowy wpis w %{participatory_space_title}
+          notification_title: Wpis <a href="%{resource_path}">%{resource_title}</a> został opublikowany w %{participatory_space_title}
+    pages:
+      home:
+        statistics:
+          posts_count: Wpisy
+    participatory_processes:
+      statistics:
+        posts_count: Wpisy
