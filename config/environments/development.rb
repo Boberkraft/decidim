@@ -63,4 +63,7 @@ Rails.application.configure do
 
   # No precompilation on demand on first request
   config.assets.check_precompiled_asset = false
+
+  config.action_mailer.delivery_method = :letter_opener
+  config.action_mailer.perform_deliveries = true
 end
