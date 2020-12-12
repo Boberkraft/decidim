@@ -61,7 +61,7 @@ Do przykładowej aplikacji zostały dodane dwie walidacje:
 Zaimplementowane zostało sprawdzanie liczby znaków peselu przy pomocy specjalistycznego walidatora `ActiveModel::Validations::PresenceValidator`, który w przypadku wykrycia nieprawidłowości automatycznie dodaje konkretyn błąd, że liczba znaków powinna wynosić dokładnie 11. 
 ### Poprawność Peselu
 
-Przetwarzanie cyfry kontrolnej i sprawdzanie poprawności zostaje oddelegowanie do zewnętrzen biblioteki na licencji MIT `https://github.com/macuk/pesel`. Jest ona dobrze przetestowana kompletna, więc nie ma sensu tworzenie własnego modułu. 
+Przetwarzanie cyfry kontrolnej i sprawdzanie poprawności zostaje oddelegowanie do zewnętrzen biblioteki na licencji MIT https://github.com/macuk/pesel. Jest ona dobrze przetestowana kompletna, więc nie ma sensu tworzenie własnego modułu. 
 
 
 
@@ -132,5 +132,5 @@ Two types of validations of pesel occur inside the application.
 Lenght of pesel is implemented using `ActiveModel::Validations::PresenceValidator` which adds specialized error message when to toe object when it detects anomalym.
 
 ### Pesel  
-Control sum checking and pesel validation is delegated to the externals library under the MIT `https: // github.com / macuk / pesel` license. It is well tested and works well, so there is no need for addidional work.
+Control sum checking and pesel validation is delegated to the externals library under the MIT license https://github.com/macuk/pesel. It is well tested and works well, so there is no need for addidional work.
 
