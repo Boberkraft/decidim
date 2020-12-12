@@ -76,5 +76,4 @@ Przetwarzanie cyfry kontrolnej i sprawdzanie poprawności zostaje oddelegowanie 
 
 ## Internacjonalizacja
 
-Wszystkie błędy wygnerowane przez nowy kod są tłumaczone na aktualny język. 
-Wszystko dzieje się za sprawą systemu walidacji Rails. 
+Wszystkie błędy wygnerowane przez nowy kod są tłumaczone na aktualny język, przy pomocy systemu walidacji Rails. 
