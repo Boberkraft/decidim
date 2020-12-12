@@ -74,4 +74,7 @@ Zaimplementowane zostało sprawdzanie liczby znaków peselu przy pomocy specjali
 Przetwarzanie cyfry kontrolnej i sprawdzanie poprawności zostaje oddelegowanie do zewnętrzen biblioteki na licencji MIT https://github.com/macuk/pesel. Jest ona dobrze przetestowana kompletna, więc nie ma sensu tworzenie własnego modułu. 
 
 
+## Internacjonalizacja
 
+Wszystkie błędy wygnerowane przez nowy kod są tłumaczone na aktualny język. 
+Wszystko dzieje się za sprawą domyślnego systemu walidacji gemu Rails. 
