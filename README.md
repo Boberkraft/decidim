@@ -1,9 +1,9 @@
 English version below.
 
 Pole w formulatrzu rejestracyjnym:
-![rejestracja.png](rejestracja)
+![rejestracja](rejestracja.png)
 Podgląd pola w profilu:
-![profil.png](profil)
+![profil](profil.png)
 
 # Rejestracja z numerem pesel
 
