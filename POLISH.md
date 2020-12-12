@@ -10,7 +10,7 @@ Dodano podgląd pola `pesel` w profilu:
 
 ---
 
-Stworzona została migracja dodająca kolumnę `pesel` do tabeli uzytkowników systemu `Decidim`. By przyśpieszyć kwerendy z jej udziałem, stała ona opatrzona unikalnym indeksem.
+Stworzona została migracja dodająca kolumnę `pesel` do tabeli uzytkowników systemu `Decidim`. By przyśpieszyć kwerendy z jej udziałem, została ona opatrzona unikalnym indeksem.
 
 Znajduje się ona w pliku `db/migrate/20201212112736_add_pesel_to_users.rb`. 
 
