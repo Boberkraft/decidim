@@ -51,7 +51,7 @@ index 0db994a..710aa70 100644
    end
 ```
 
-Because Decidim is using registration modules from `Devise`, an overrid of its templates was neccesery.
+Because Decidim is using registration modules from `Devise`, an overridden of its templates was neccesery.
 
 To allow passing values to the server, inside the registration form (`views/decidim/devise/registrations/new`) the following field was added:
 ```html
@@ -60,7 +60,7 @@ To allow passing values to the server, inside the registration form (`views/deci
  </div>
 ```
 
-Additionally, the verification object `Decidim::RegistrationForm`, was overiden, to allow accessing the new field.
+Additionally, the verification object `Decidim::RegistrationForm`, was overridden, to allow accessing the new field.
 Accesor for it was added: `attribute :pesel, String`.
 
 And also verification of correctnes inside user model via `Decidim::User#validate_pesel`.
