@@ -14,7 +14,7 @@ Added preview of field `pesel` in user profile
 
 Migration creating `pesel` column in `decidim_users` was added. It has unique index for fast fetching.
 
-It's located in `db/migrate/20201212112736_add_pesel_to_users.rb`. 
+It's located in [db/migrate/20201212112736_add_pesel_to_users.rb](https://github.com/Boberkraft/decidim/blob/master/db/migrate/20201212112736_add_pesel_to_users.rb). 
 
 When applied, the schema compared to freshly generated app changes in the following way:
 
