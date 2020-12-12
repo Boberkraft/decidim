@@ -69,7 +69,7 @@ Numer PESEL jest to 11 cyfrowy identyfikator numeryczny jednoznacznie identyfiku
 Do przykładowej aplikacji zostały dodane dwie walidacje:
 ### Liczba znaków
 Zaimplementowane zostało sprawdzanie liczby znaków peselu przy pomocy specjalistycznego walidatora `ActiveModel::Validations::PresenceValidator`, który w przypadku wykrycia nieprawidłowości automatycznie dodaje konkretyn błąd, że liczba znaków powinna wynosić dokładnie 11. 
-### Poprawność Peselu
+### Poprawność Peselu
 
 Przetwarzanie cyfry kontrolnej i sprawdzanie poprawności zostaje oddelegowanie do zewnętrzen biblioteki na licencji MIT https://github.com/macuk/pesel. Jest ona dobrze przetestowana kompletna, więc nie ma sensu tworzenie własnego modułu. 
 
