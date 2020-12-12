@@ -127,10 +127,10 @@ And also verification of correctnes inside user model via `Decidim::User#validat
 
 PESEL (en. Universal Electronic System for Registration of the Population) is the national identification number used in Poland.
 
-Two validations occur inside the application.
+Two types of validations of pesel occur inside the application.
 ### Length
 Lenght of pesel is implemented using `ActiveModel::Validations::PresenceValidator` which adds specialized error message when to toe object when it detects anomalym.
 
-### Poprawność Peselu
+### Pesel  
 Control sum checking and pesel validation is delegated to the externals library under the MIT `https: // github.com / macuk / pesel` license. It is well tested and works well, so there is no need for addidional work.
 
