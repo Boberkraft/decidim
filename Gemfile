@@ -33,3 +33,7 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0"
   gem "web-console", "~> 3.5"
 end
+
+gem "pry-byebug", "~> 3.9"
+
+gem "pesel", "~> 0.9.0"
