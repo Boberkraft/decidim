@@ -1,3 +1,10 @@
+English version below.
+
+Pole w formulatrzu rejestracyjnym:
+![rejestracja.png](rejestracja)
+Podgląd pola w profilu:
+![profil.png](profil)
+
 # Rejestracja z numerem pesel
 
 Stworzona została migracja dodająca kolumnę `pesel` do tabeli uzytkowników systemu `Decidim`. By przyśpieszyć kwerendy z jej udziałem, stała ona opatrzona unikalnym indeksem.
