@@ -16,7 +16,7 @@ Znajduje się ona w pliku [db/migrate/20201212112736_add_pesel_to_users.rb](http
 
 Po jej zaaplikowaniu, schema, w porównaniu z świezo wygenerowaną aplikacją, zmienia się w następujący sposób:
 
-```bash
+```diff
 diff --git a/db/schema.rb b/db/schema.rb
 index 0db994a..710aa70 100644
 --- a/db/schema.rb
