@@ -19,7 +19,7 @@ It's located in [db/migrate/20201212112736_add_pesel_to_users.rb](https://github
 When applied, the schema compared to freshly generated app changes in the following way:
 
 
-```bash
+```diff
 diff --git a/db/schema.rb b/db/schema.rb
 index 0db994a..710aa70 100644
 --- a/db/schema.rb
